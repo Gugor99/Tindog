@@ -2,7 +2,8 @@
     
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 5px;
+    margin: auto;
+    max-width: 380px;
 }
 
 .btn-box{
@@ -61,14 +62,14 @@ h1, h2{
 }
 
 h1{
-    left: 3%;
-    bottom: 8%;
-    
+    left: .4em;
+    bottom: 1.5em;
 }
 
 h2{
-    left: 5%;
-    bottom: 0%;
+    left: .7em;
+    bottom: 1em;
+    max-width: 320px;
     font-size: 0.9em;
 }
 
@@ -87,6 +88,7 @@ h3, h4{
 }
 
 .pic-container{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -110,4 +112,4 @@ h3, h4{
     font-weight: bold;
     box-shadow: 0.2em 0.2em 0.5em lightgray;
  }
-/*}*/
+

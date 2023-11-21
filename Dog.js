@@ -36,7 +36,7 @@ class Dog {
                     <img id= "imag" src= "${avatar}"/>
                     ${sign}
                     <h1>${name}, ${age}</h1>
-                    <h2>${bio}</h2>
+                    <h2>${bio}</h2>                    
                 </div>`  
     }
 }
