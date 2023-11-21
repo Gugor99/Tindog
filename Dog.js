@@ -1,5 +1,3 @@
-import dogs from './data.js'
-
 class Dog {
     constructor(data){
         Object.assign(this, data)
@@ -8,14 +6,14 @@ class Dog {
     
     getSticker(swiped, liked){
         if(swiped){
-            return `<img src="badge-nope.png" class= "icon" id="nope-icon">
-                    <img src="badge-like.png" class="icon noned" id="like-icon">`
+            return `<img src="images/badge-nope.png" class= "icon" id="nope-icon">
+                    <img src="images/badge-like.png" class="icon noned" id="like-icon">`
         } else if (liked){
-            return `<img src="badge-nope.png" class= "icon noned" id="nope-icon">
-                    <img src="badge-like.png" class="icon" id="like-icon">`
+            return `<img src="images/badge-nope.png" class= "icon noned" id="nope-icon">
+                    <img src="images/badge-like.png" class="icon" id="like-icon">`
         } else {
-            return `<img src="badge-nope.png" class= "icon noned" id="nope-icon">
-                    <img src="badge-like.png" class="icon noned" id="like-icon">`
+            return `<img src="images/badge-nope.png" class= "icon noned" id="nope-icon">
+                    <img src="images/badge-like.png" class="icon noned" id="like-icon">`
         }
     }
     
