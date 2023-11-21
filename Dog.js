@@ -19,16 +19,6 @@ class Dog {
         }
     }
     
-    /*getNopeSticker(swiped){
-    this.hasBeenSwiped = true
-    return `<img src="images/badge-nope.png" class="icon ${swiped ? "" : "noned"}"       id="nope-icon" alt="location">`
-    }
-    
-    getLikeSticker(liked){
-        this.hasBeenLiked = true
-        return `<img src="images/badge-like.png" class="icon ${liked ? "" : "noned"}"       id="like-icon" alt="location">`
-    }*/
-    
     getDogHtml(){
         const {name, avatar, age, bio, hasBeenSwiped, hasBeenLiked} = this
         const sign = this.getSticker(hasBeenSwiped, hasBeenLiked)
