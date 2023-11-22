@@ -1,5 +1,6 @@
 import dogs from './data.js'
 import Dog from './Dog.js'
+import sadDog from './images/tindog.png'
 const cross = document.getElementById('cross')
 const heart = document.getElementById('heart')
 
@@ -11,7 +12,7 @@ function getNewDog(){
 
 function endGame(){
     document.querySelector('body').innerHTML = `<div class="pic-container">
-                                                    <img id= "end-img" src= "images/tindog.png"/>
+                                                    <img id= "end-img" src= ${sadDog}/>
                                                     <h3>There's no one around you. Expand your discovery settings to see more dawgs.</h3>
                                                     <button id="dis-settings">DISCOVERY SETTINGS</button>
                                                     <h4>No Matches</h4>
