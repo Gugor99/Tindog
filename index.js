@@ -34,7 +34,6 @@ function getNextDog(){
 }
 
 function crossBtnPressed(){
-    console.log("crosspreassed")
     currentDog.hasBeenSwiped = true
     setTimeout(()=>{
         getNextDog()  
