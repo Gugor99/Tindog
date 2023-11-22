@@ -39,7 +39,6 @@ class Dog {
         }
 
         const sign = this.getSticker(hasBeenSwiped, hasBeenLiked)
-        console.log(avatar)
         return `<div class="pic-container">
                     <img id= "imag" src= "${corrDog(avatar)}"/>
                     ${sign}
